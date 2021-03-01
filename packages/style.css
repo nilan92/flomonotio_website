@@ -192,6 +192,18 @@ body {
   padding: 10px;
   
 }
+.back-end-btn{
+  text-align: center;
+  position: relative;
+  bottom: -60px;
+}
+.back-top-btn{
+  background-color: rgb(139, 227, 243);
+ margin-top: 100px;
+  padding: 2px 10px;
+  border-radius: 1rem;
+  
+}
 .pricing-background {
   background: white
 }
@@ -223,12 +235,13 @@ body {
 .pricing-section-sub {
     padding-top: 10px;
     color: grey;
+    
 }
 
 .pricing-table {
-    padding: 0 0 100px;
+    padding: 10px 0px 5px;
     max-width: 1050px;
-    margin: auto;
+    
 }
 
 .plan {
@@ -238,6 +251,24 @@ body {
     height: 430px;
     padding: 36px 15px 45px;
     position: relative;
+    border-radius: 50px;
+background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+
+    
+}
+
+.plan-elite {
+  text-align: center;
+  max-width: 390px;
+  margin: auto;
+  height: 430px;
+  padding: 36px 15px 45px;
+  position: relative;
+  box-shadow: 5px 8.7px 40px rgba(99, 117, 138, 0.3);
+border-radius: 50px;
+background: linear-gradient(to right bottom, rgba(255, 238, 0, 0.3), rgba(255, 0, 98, 0.1));
+border-top: 1px solid white;
+    border-left: 1px solid white;
 }
 
 .mid-plan {
@@ -248,7 +279,10 @@ body {
     padding: 36px 15px 45px;
     position: relative;
     box-shadow: 5px 8.7px 40px rgba(99, 117, 138, 0.3);
-    border-radius: 7px;
+    border-radius: 50px;
+    
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.3), rgba(255,255,255,0.1));
+
 }
 
 ul {
@@ -267,6 +301,20 @@ ul {
     position: absolute;
     left: -10px;
     position: relative;
+
+}
+.plan-elite li {
+  position: relative;
+}
+
+.plan-elite li::before {
+  font-family: Material Icons;
+  content: "check";
+  color: rgb(239, 255, 21);
+  text-shadow: 1px 1px 3px rgb(78, 78, 78);
+  position: absolute;
+  left: -10px;
+  position: relative;
 
 }
 
