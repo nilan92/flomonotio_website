@@ -30,7 +30,7 @@ body {
     background: -webkit-linear-gradient(110deg, rgb(81, 220, 230), rgb(216, 71, 99));
     background: linear-gradient(117deg, rgb(81, 220, 230), rgb(216, 71, 99));
     background: -webkit-radial-gradient(rgb(81, 220, 230), rgb(105, 86, 235));
-    background: radial-gradient(rgb(81, 220, 230), rgb(20, 120, 209));
+    background: radial-gradient(rgb(81, 220, 230), rgb(0, 0, 0));
 }
 
 .bold {
@@ -135,6 +135,7 @@ body {
     padding-top: 80px;
     padding-bottom: 0px;
     text-align: center;
+    /* color: black; */
 }
 
 .header-running-text {
@@ -143,6 +144,7 @@ body {
     max-width: 287px;
     line-height: 1.5;
     margin: auto;
+    /* color: black; */
 }
 
 .logos-section {
@@ -406,7 +408,8 @@ ul {
 }
 
 .blue-section {
-  background: radial-gradient(rgb(81, 220, 230), rgb(20, 120, 209));
+  background: radial-gradient(rgb(81, 220, 230), rgb(0, 0, 0));
+
     color: white;
     margin: auto;
     text-align: center;
