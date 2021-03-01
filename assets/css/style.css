@@ -503,6 +503,7 @@ ul {
     max-width: 1280px;
 }
 
+
 /* preloader */
 .preloader {
  min-height: 100vh;
@@ -901,13 +902,11 @@ ul {
   margin: auto;
   backdrop-filter: blur(5px);
   border-top: 1px solid rgba(255,255,255,0.8);
-  
 }
 
 .ball h2{
   font-size: 50px;
   color: #ecfbff;
-
 }
 
 .ball h3{
