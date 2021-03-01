@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/flomyduq/public_html/
+    - export DEPLOYPATH=/home/flomyduq/repositories/flomonotio_website
     - /bin/cp -R * $DEPLOYPATH
