@@ -24,7 +24,14 @@ $(document).ready(function () {
     //Mouse click scroll
     $(document).ready(function () {
         $(".mouse").click(function () {
-            $('html, body').animate({scrollTop: '+=750px'}, 1200);
+            $('html, body').animate({scrollTop: '+=750px'}, 500);
+        });
+    });
+
+    //reach us click scroll
+    $(document).ready(function () {
+        $(".hero-btn, .header-btn").click(function () {
+            $('html, body').animate({scrollTop: '+=4500px'}, 1200);
         });
     });
 
@@ -37,6 +44,16 @@ $(document).ready(function () {
             $(".feature-icon").addClass("feature-display");
             $(".feature-head-text").addClass("feature-display");
             $(".feature-subtext").addClass("feature-display");
+        }
+    });
+
+     //Features appearance
+     $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+
+        //>=, not <=
+        if (scroll >= 5000) {
+            $(".ball-off").addClass("ball-on");
         }
     });
 

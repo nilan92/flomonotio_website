@@ -375,6 +375,7 @@ ul {
 .team {
     padding-bottom: 50px;
     padding-top: 60px;
+    display: none;
 }
 
 .team-container {
@@ -916,11 +917,18 @@ ul {
 
 }
 
-.ball h2{
+.ball-off{
   -webkit-transform: translateY(10px);
   transform: translateY(10px);
   opacity: 0;
  
+}
+.ball-on{
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.5s;
 }
 .ball:hover h2{
   -webkit-transform: translateY(0px);
@@ -1030,5 +1038,7 @@ ul {
   .social{
     flex-direction: row;
   }
-
+.team{
+display: block;
+}
 }
