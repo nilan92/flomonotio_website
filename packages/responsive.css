@@ -1,0 +1,20 @@
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+
+    .pricing-table {
+        padding: 70px 0 100px;
+        max-width: 1050px;
+        margin: auto;
+    }
+
+}
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {
+}
