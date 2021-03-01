@@ -192,6 +192,9 @@ body {
   padding: 10px;
   
 }
+.pricing-background {
+  background: white
+}
 .pricing-background-complete {
   background: radial-gradient(rgb(252, 242, 156), rgb(252, 234, 134));
 
