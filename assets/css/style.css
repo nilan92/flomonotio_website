@@ -405,7 +405,7 @@ ul {
 }
 
 .blue-section {
-    background-color: skyblue;
+  background: radial-gradient(rgb(81, 220, 230), rgb(20, 120, 209));
     color: white;
     margin: auto;
     text-align: center;
@@ -473,6 +473,8 @@ ul {
     background-color: #464646;
     padding-top: 20px;
     padding-bottom: 20px;
+    color: white;
+    text-align: center;
 }
 
 .webscope-text {
@@ -969,10 +971,10 @@ ul {
   color: rgb(206, 141, 20);
 }
 .wt a{
-  color: rgb(142, 226, 153);
+  color: rgb(86, 179, 98);
 }
 .wt a:hover{
-  color: rgb(38, 187, 63);
+  color: rgb(36, 170, 59);
 }
 
 .social{
