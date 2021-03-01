@@ -118,13 +118,13 @@ body {
     border: 1px solid #6FC9DB;
     width: 210px;
     height: 51px;
-    color: white;
+    color: black;
     margin: 30px auto;
 }
 
 .hero-btn:hover {
-    background-color: #6affb4;
-    color: white;
+    background-color: aqua;
+    color: black;
     border-radius: 20px;
     -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
     -moz-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
