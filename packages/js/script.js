@@ -106,3 +106,12 @@ $(document).ready(function () {
 
 
 })
+$(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+
+    //>=, not <=
+    if (scroll >= 100) {
+        $(".pricing-table").addClass("puka");
+       
+    }
+});

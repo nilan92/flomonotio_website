@@ -241,8 +241,66 @@ body {
 .pricing-table {
     padding: 10px 0px 5px;
     max-width: 1050px;
+    -webkit-transform: translateY(60px);
+  transform: translateY(60px);
+  opacity: 0;
     
 }
+
+.puka {
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.pricing-table1 {
+  padding: 10px 0px 5px;
+  max-width: 1050px;
+  -webkit-transform: translateY(60px);
+transform: translateY(60px);
+opacity: 0;
+
+}
+
+.pricing-table2 {
+  padding: 10px 0px 5px;
+  max-width: 1050px;
+  -webkit-transform: translateY(60px);
+transform: translateY(60px);
+opacity: 0;
+  
+}
+
+.pricing-table3 {
+  padding: 10px 0px 5px;
+  max-width: 1050px;
+  -webkit-transform: translateY(60px);
+transform: translateY(60px);
+opacity: 0;
+  
+}
+
+.pricing-table4 {
+  padding: 10px 0px 5px;
+  max-width: 1050px;
+  -webkit-transform: translateY(60px);
+transform: translateY(60px);
+opacity: 0;
+  
+}
+
+
+.pricing-table5 {
+  padding: 10px 0px 5px;
+  max-width: 1050px;
+  -webkit-transform: translateY(60px);
+transform: translateY(60px);
+opacity: 0;
+  
+}
+
 
 .plan {
     text-align: center;
@@ -252,9 +310,7 @@ body {
     padding: 36px 15px 45px;
     position: relative;
     border-radius: 50px;
-background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
-
-    
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));    
 }
 
 .plan-elite {
@@ -265,10 +321,11 @@ background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3), rgba(255,
   padding: 36px 15px 45px;
   position: relative;
   box-shadow: 5px 8.7px 40px rgba(99, 117, 138, 0.3);
-border-radius: 50px;
-background: linear-gradient(to right bottom, rgba(255, 238, 0, 0.3), rgba(255, 0, 98, 0.1));
-border-top: 1px solid white;
-    border-left: 1px solid white;
+  border-radius: 50px;
+  background: linear-gradient(to right bottom, rgba(255, 238, 0, 0.3), rgba(255, 0, 98, 0.1));
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  overflow: hidden;
 }
 
 .mid-plan {
@@ -605,6 +662,8 @@ ul {
   border-top: 1px solid rgba(255,255,255,0.8);
   border-left: 1px solid rgba(255,255,255,0.8);
 }
+
+
 
 @media only screen and (min-width: 768px) {
 

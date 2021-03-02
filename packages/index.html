@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="responsive.css"/>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/> -->
 
 </head>
 
@@ -128,7 +128,7 @@
             <div class="col-sm-4">
                 <div class="plan">
                     <h3 class="plan-title light">Standard Pack</h3>
-                    <h4 class="plan-cost bold">40000</h4>
+                    <h4 class="plan-cost bold">45000</h4>
                     <h5 class="monthly">Customizable</h5>
                     <ul class="plan-features">
                         <li>Full Movie</li>
@@ -149,7 +149,7 @@
             <div class="col-sm-4">
                 <div class="mid-plan">
                     <h3 class="plan-title light">Best Value Pack</h3>
-                    <h4 class="plan-cost bold">50000</h4>
+                    <h4 class="plan-cost bold">55000</h4>
                     <h5 class="monthly">Customizable</h5>
                     <ul class="plan-features">
                         <li>Full Movie</li>
@@ -350,12 +350,14 @@
                         <div class="col-sm-4">
                             <div class="plan">
                                 <h3 class="plan-title light">Standard Pack</h3>
-                                <h4 class="plan-cost bold">40000</h4>
+                                <h4 class="plan-cost bold">45000</h4>
                                 <h5 class="monthly">Projector Screen + Online</h5>
                                 <ul class="plan-features">
                                     <li>Livestreaming</li>
                                     <li>Two Cameras</li>
                                     <li>2-3 Hour Stream</li>
+                                    <li>Video Playback - Wishes, Pre-shoot</li>
+
                                 </ul>
                                 <div class="plan-price-div text-center">
                                     <div class="choose-plan-div">
@@ -370,12 +372,14 @@
                         <div class="col-sm-4">
                             <div class="mid-plan">
                                 <h3 class="plan-title light">Best Value Pack</h3>
-                                <h4 class="plan-cost bold">50000</h4>
+                                <h4 class="plan-cost bold">55000</h4>
                                 <h5 class="monthly">Projector Screen + Online</h5>
                                 <ul class="plan-features">
                                     <li>Livestreaming</li>
                                     <li>Two cameras</li>
                                     <li>4 Hour stream</li>
+                                    <li>Video Playback - Wishes, Pre-shoot</li>
+
                                 </ul>
                                 <div class="plan-price-div text-center">
                                     <div class="choose-plan-div">
@@ -396,6 +400,7 @@
                                     <li>Livestreaming (Screen+Online)</li>
                                     <li>Three Cameras</li>
                                     <li>Full event stream</li>
+                                    <li>Video Playback - Wishes, Pre-shoot</li>
                                     <li>Drone Pilot</li>
                                 </ul>
                                 <div class="plan-price-div text-center">
@@ -428,7 +433,7 @@
                 <h5 class="monthly">Cinematic</h5>
                 <ul class="plan-features">
                     <li>Full Movie</li>
-                    <li>Thrilling Trailer</li>
+                    <li>Attractive Trailer</li>
                     <li>Cinematic Livestreaming</li>
                     <li>Two Cameras</li>
                     <li>Custom DVD</li>
@@ -493,5 +498,18 @@
 <div class="footer">
     © 2021 Flomo Notio - sense and embrace | All Rights Reserved.
 </div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+<script src="js/script.js"></script>
+<script type="text/javascript" src="js/vanilla-tilt.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".plan-elite"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+    });
+    </script>
 </body>
 </html>
