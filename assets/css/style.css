@@ -165,7 +165,7 @@ body {
 }
 
 .features-section {
-    background-color:rgb(1, 53, 95);
+    background:linear-gradient(to bottom left,rgb(3, 71, 128),rgb(0,0,0));
     padding-top: 40px;
     padding-bottom: 10px;
     text-align: center;

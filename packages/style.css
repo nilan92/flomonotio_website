@@ -21,15 +21,19 @@ body {
     position: relative;
     z-index: 999;
 }
+.packg-logo{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .packages-logo{
-  max-width: 100px;
-  position:absolute;
+  max-width: 150px;
+  /* position:relative;
   left: 42%;
   top:13%;
   background: white;
   border-radius: 1rem;
   padding: 20px;
-  margin-top: 10px;
+  margin-top: 10px; */
 }
 
 .packages-logo2{
@@ -215,8 +219,8 @@ body {
 }
 .back-top-btn{
   background-color: rgb(139, 227, 243);
- margin-top: 100px;
-  padding: 2px 10px;
+  margin-top: 10%;
+  padding: 5px 10px;
   border-radius: 1rem;
   
 }
@@ -593,12 +597,12 @@ ul {
     bottom: -60px;
   }
 
-  .packages-logo{
+  /* .packages-logo{
     max-width: 200px;
     position:absolute;
     left: 10%;
     top: 3%;
-  }
+  } */
 }
 
 
