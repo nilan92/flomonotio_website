@@ -21,7 +21,23 @@ body {
     position: relative;
     z-index: 999;
 }
+.packages-logo{
+  max-width: 100px;
+  position:absolute;
+  left: 42%;
+  top:13%;
+  background: white;
+  border-radius: 1rem;
+  padding: 20px;
+  margin-top: 10px;
+}
 
+.packages-logo2{
+  max-width: 150px;
+  padding: 20px;
+  z-index: -1;
+  margin-top: 10px;
+}
 .logo {
     max-width: 100px;
     padding-left: 0;
@@ -195,7 +211,7 @@ body {
 .back-end-btn{
   text-align: center;
   position: relative;
-  bottom: -60px;
+  bottom: 30px;
 }
 .back-top-btn{
   background-color: rgb(139, 227, 243);
@@ -208,20 +224,20 @@ body {
   background: white
 }
 .pricing-background-complete {
-  background: radial-gradient(rgb(252, 242, 156), rgb(252, 234, 134));
+  background: linear-gradient(to top right, rgb(255, 202, 153), rgb(255, 177, 242));
 
 }
 .pricing-background-movie {
-  background: radial-gradient(rgb(241, 185, 252), rgb(220, 207, 255));
+  background: linear-gradient(to top right, rgb(242, 178, 255), rgb(159, 198, 255));
 
 }.pricing-background-photo {
-  background: radial-gradient(rgb(247, 253, 167), rgb(233, 255, 199));
+  background: linear-gradient(to bottom right, rgb(255, 237, 176), rgb(167, 255, 243));
 
 }.pricing-background-booth {
-  background: radial-gradient(rgb(174, 243, 248), rgb(162, 177, 248));
+  background: linear-gradient(to bottom right, rgb(174, 243, 248), rgb(255, 255, 255));
 
 }.pricing-background-live {
-  background: radial-gradient(rgb(253, 194, 167), rgb(253, 184, 184));
+  background: linear-gradient(to bottom right,rgb(255, 232, 232), rgb(253, 160, 160));
 
 }
 .comp-over-fix{
@@ -573,7 +589,16 @@ ul {
   .about-us{
     flex-direction: row;
   }
+  .back-end-btn{
+    bottom: -60px;
+  }
 
+  .packages-logo{
+    max-width: 200px;
+    position:absolute;
+    left: 10%;
+    top: 3%;
+  }
 }
 
 

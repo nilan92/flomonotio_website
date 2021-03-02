@@ -11,7 +11,7 @@ body {
 }
 
 .navbar-item {
-    color: #ffffff;
+    color: white;
     padding: 10px;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 .navbar-item:hover {
-    color: #58d5f7;
+    color: white;
     text-decoration: none;
 }
 
@@ -30,7 +30,7 @@ body {
     background: -webkit-linear-gradient(110deg, rgb(81, 220, 230), rgb(216, 71, 99));
     background: linear-gradient(117deg, rgb(81, 220, 230), rgb(216, 71, 99));
     background: -webkit-radial-gradient(rgb(81, 220, 230), rgb(105, 86, 235));
-    background: radial-gradient(rgb(81, 220, 230), rgb(0, 0, 0));
+    background: linear-gradient(to bottom right, aqua, rgb(1, 44, 100));
 }
 
 .bold {
@@ -50,26 +50,33 @@ body {
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 180px;
+    position: absolute;
+    left: 33%;
+    top: 85px;
     padding-left: 0;
     padding-top: 0px;
+    border-radius: 50%;
+    border: 0px solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.089);
+
 }
 
 .header-btn {
-    background-color: #0ABCEB;
+    background-color: #b3e8f7;
     border-radius: 10px;
     border: #0ABCEB;
     float: right;
     width: 195px;
     height: 51px;
-    color: white;
+    color: black;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     margin-top: -10px;
 }
 
 .header-btn:hover {
-    background-color: #58d5f7;
+    background-color: #35e3f0;
     color: white;
     border-radius: 20px;
     -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
@@ -106,14 +113,14 @@ body {
 }
 
 .hero-right {
-    color: #fff;
+    color: black;
     text-align: center;
 }
 
 .hero-btn {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    background-color:#6FC9DB;
+    background-color:#a0e9ee;
     border-radius: 10px;
     border: 1px solid #6FC9DB;
     width: 210px;
@@ -158,7 +165,7 @@ body {
 }
 
 .features-section {
-    background-color: black;
+    background-color:rgb(1, 53, 95);
     padding-top: 40px;
     padding-bottom: 10px;
     text-align: center;
@@ -216,7 +223,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    box-shadow: 4px 14px 28px #393939;
+    box-shadow: 4px 5px 10px #96e5fd71;
 }
 
 .feature-head-text {
@@ -317,6 +324,7 @@ ul {
   position: relative;
   bottom:-50px;
   left: 3px;
+  height: 10px;
 }
 .plan li {
     position: relative;
@@ -414,15 +422,19 @@ ul {
 }
 
 .blue-section {
-  background: radial-gradient(rgb(81, 220, 230), rgb(0, 0, 0));
-
-    color: white;
+      background: linear-gradient(to bottom left, aqua, rgb(1, 44, 100));
+  color: white;
     margin: auto;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 40px;
 }
-
+.blue-section::after {
+  height: 100px;
+  width: 100px;
+  color: #0ABCEB;
+  position: absolute;
+}
 .blue-section-subtext {
     max-width: 200px;
     max-width: 250px;
@@ -900,9 +912,12 @@ ul {
 .about-us h3{
   color: #d7f2fa;
 }
-
+.card{
+  z-index: 1;
+  overflow: hidden;
+}
 .ball{
-  background: linear-gradient(to right bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.3));
+  background: linear-gradient(to right bottom, rgba(255,255,255,0.3), rgba(255,255,255,0.1));
   height: 18rem;
   width: 18rem;
   border-radius: 50%;
@@ -912,6 +927,8 @@ ul {
   margin: auto;
   backdrop-filter: blur(5px);
   border-top: 1px solid rgba(255,255,255,0.8);
+  overflow: hidden;
+  z-index: 2;
 }
 
 .ball h2{
@@ -952,6 +969,16 @@ ul {
   .about-us{
     flex-direction: row;
   }
+  .logo {
+    max-width: 180px;
+    left: 0%;
+    top: 60%;
+    padding-left: 0;
+    padding-top: 0px;
+    border-radius: 50%;
+    border: 0px solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.089);
+}
 
 }
 
@@ -959,12 +986,13 @@ ul {
 /* Social and Mobile */
 
 .social h3{
-  background: rgba(255,255,255,0.8);
+  background: linear-gradient(to right bottom, rgba(255,255,255,0.6), rgba(255,255,255,0.3));
   color: skyblue;
   border-radius: 3rem;
   width: 150px;
   height: 40px;
   padding: 0.7rem;
+  border-top: 1px solid white;
   box-shadow: 5px 5px 10px rgba(99, 117, 138, 0.3);
   -webkit-box-shadow: 5px 5px 10px rgba(99, 117, 138, 0.3);
 
@@ -981,7 +1009,7 @@ ul {
   color: rgb(212, 42, 42);
 }
 .in a{
-  color: rgb(218, 175, 95);
+  color: rgb(129, 86, 6);
 }
 .in a:hover{
   color: rgb(206, 141, 20);
@@ -1011,7 +1039,7 @@ ul {
   justify-content: space-evenly;
   padding-top: 40px;
   padding-bottom: 10px;
-  color: rgb(109, 109, 109);
+  color: rgb(58, 83, 94);
   
 
 }
@@ -1022,7 +1050,7 @@ ul {
 }
 
 .phone{
-  background: linear-gradient(to right bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.3));
+  background: linear-gradient(to right bottom, rgba(255,255,255,0.3), rgba(255,255,255,0.1));
   border-radius: 3rem;
   padding: 5px 30px 15px;
   box-shadow: 5px 5px 10px rgba(99, 117, 138, 0.3);
@@ -1032,7 +1060,7 @@ ul {
   backdrop-filter: blur(5px);
 }
 .location{
-  background: linear-gradient(to right bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.3));
+  background: linear-gradient(to right bottom, rgba(255,255,255,0.3), rgba(255,255,255,0.1));
   border-radius: 3rem;
   margin-top: 50px;
   padding: 5px 25px 5px;
@@ -1041,7 +1069,17 @@ ul {
   border-top: 1px solid rgba(255,255,255,0.8);
   border-left: 1px solid rgba(255,255,255,0.8);
 }
+.location a{
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
 
+.phone a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
 @media only screen and (min-width: 768px) {
 
   .social{
