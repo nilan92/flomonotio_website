@@ -30,7 +30,7 @@ body {
     background: -webkit-linear-gradient(110deg, rgb(81, 220, 230), rgb(216, 71, 99));
     background: linear-gradient(117deg, rgb(81, 220, 230), rgb(216, 71, 99));
     background: -webkit-radial-gradient(rgb(81, 220, 230), rgb(105, 86, 235));
-    background: linear-gradient(to bottom right, aqua, rgb(1, 44, 100));
+    background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(1, 64, 100));
 }
 
 .bold {
@@ -50,37 +50,32 @@ body {
 }
 
 .logo {
-    max-width: 150px;
-    position: absolute;
-    top:120px;
-    right: 30%;
-    /* left: 12vh; */
-    padding-left: 0;
-    display: block;
-    padding-top: 0px;
-    border-radius: 50%;
-    border: 0px solid white;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.089);
+    max-width: 120px;
+    display:flex;
+    border-radius:50%;
+    margin-left: 30px;
+    /* filter: invert(1); */
+    box-shadow: 0px 0px 15px rgba(112, 111, 111, 0.521);
 
 }
 
 .header-btn {
-    background-color: #b3e8f7;
-    border-radius: 10px;
-    border: #0ABCEB;
+    background-color: #424242;
+    border-radius: 20px;
+    border: #a7a7a7;
     float: right;
-    width: 195px;
+    width: 130px;
     height: 51px;
-    color: black;
+    color: rgb(219, 219, 219);
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     margin-top: -10px;
 }
 
 .header-btn:hover {
-    background-color: #35e3f0;
-    color: white;
-    border-radius: 20px;
+    background-color: #505050;
+    color: rgb(219, 219, 219);
+    border-radius: 40px;
     -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
     -moz-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
     box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
@@ -115,26 +110,26 @@ body {
 }
 
 .hero-right {
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
 .hero-btn {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    background-color:#a0e9ee;
-    border-radius: 10px;
-    border: 1px solid #6FC9DB;
-    width: 210px;
+    background-color: rgb(93, 197, 197);
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    width: 180px;
     height: 51px;
     color: black;
     margin: 30px auto;
 }
 
 .hero-btn:hover {
-    background-color: aqua;
+  background-color:#cacaca;
     color: black;
-    border-radius: 20px;
+    border-radius: 40px;
     -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
     -moz-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
     box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
@@ -217,7 +212,7 @@ body {
 }
 
 .feature-icon {
-    background-color: aqua;
+    background-color: whitesmoke;
     border-radius: 50%;
     height: 5.625em;
     width: 5.625em;
@@ -225,17 +220,17 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    box-shadow: 4px 5px 10px #96e5fd71;
+    box-shadow: 4px 5px 10px #c2c2c271;
 }
 
 .feature-head-text {
-    color: aqua;
+    color: whitesmoke;
     font-weight: 600;
     padding-top: 15px;
 }
 
 .feature-subtext {
-    color: white;
+    color: rgb(182, 182, 182);
     padding-top: 0;
 }
 
@@ -366,7 +361,7 @@ ul {
 }
 
 .plan-btn {
-    background-color: #0ABCEB;
+    background-color: #32b6b6;
     border-radius: 10px;
     border: #0ABCEB;
     width: 170px;
@@ -382,8 +377,23 @@ ul {
     bottom: 50px;
 }
 
+.wed-btn{
+  background-color: #c093b5;
+}
+
+.wed-btn:hover {
+  background-color: #e789d0;
+}
+
+.corp-btn{
+  background-color: #5c5c5c;
+}
+
+.corp-btn:hover {
+  background-color: #b1b1b1;
+}
+
 .plan-btn:hover {
-    background-color: #58d5f7;
     color: white;
     border-radius: 20px;
     -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
@@ -425,7 +435,7 @@ ul {
 }
 
 .blue-section {
-      background: linear-gradient(to bottom left, aqua, rgb(1, 44, 100));
+      background: linear-gradient(to bottom left, black, rgb(1, 44, 100));
   color: white;
     margin: auto;
     text-align: center;
@@ -444,45 +454,6 @@ ul {
     line-height: 22px;
     font-size: 15px;
     margin: auto;
-}
-
-.email-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.email-input {
-    background-color: white;
-    border-radius: 10px;
-    border: 1px solid #fff;
-    width: 210px;
-    height: 51px;
-    color: #808080;
-    margin-top: 20px;
-    border: none;
-}
-
-.submit-btn {
-    background-color: #25F18B;
-    border-radius: 10px;
-    color: #fff;
-    height: 51px;
-    width: 120px;
-    margin-top: 20px;
-    margin-left: 3px;
-    -webkit-transition-duration: 0.4s;
-    /* Safari */
-    transition-duration: 0.4s;
-}
-
-.submit-btn:hover {
-    background-color: #6affb4;
-    color: white;
-    border-radius: 20px;
-    -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
-    -moz-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
-    box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
 }
 
 #newsletter-spinner {
@@ -513,16 +484,6 @@ ul {
     margin-top: -5px;
 }
 
-.social-links {
-    float: none;
-    text-align: center;
-    padding-top: 10px;
-}
-
-.social-link {
-    margin-right: 15px;
-}
-
 .strips {
     position: absolute;
     max-width: 1280px;
@@ -533,7 +494,7 @@ ul {
 .preloader {
  min-height: 100vh;
   font-family: 'Montserrat', sans-serif;
-  background: #0ff;
+  background:aqua;
   font-size: 16px;
   font-weight: 10px;
   display: flex;
@@ -564,10 +525,10 @@ ul {
   transform-origin: center center;
   width: 0.15rem;
   height: 145%;
-  background: aqua;
+  background:aqua;
   z-index: 4;
-  -webkit-animation: slash 6s ease-in infinite;
-          animation: slash 6s ease-in infinite;
+  -webkit-animation: slash 6s ease-in ;
+          animation: slash 6s ease-in ;
 }
 .slash:before {
   content: '';
@@ -579,7 +540,7 @@ ul {
   -webkit-transform: translate(-50%, -50%);
   width: 0.75rem;
   height: 120%;
-  background: #0ff;
+  background:aqua;
   z-index: -1;
 }
 .slash:after {
@@ -590,7 +551,7 @@ ul {
   left: 0;
   width: 100%;
   height: 100%;
-  background:black;
+  background black;
 }
 .sides {
   position: absolute;
@@ -611,8 +572,8 @@ ul {
   height: 0.15rem;
   -webkit-transform: translateX(-101%);
   transform: translateX(-101%);
-  -webkit-animation: side-top ease 6s infinite;
-          animation: side-top ease 6s infinite;
+  -webkit-animation: side-top ease 6s ;
+          animation: side-top ease 6s ;
 }
 .sides .side:nth-child(2) {
   top: 0;
@@ -621,8 +582,8 @@ ul {
   height: 100%;
   -webkit-transform: translateY(-101%);
   transform: translateY(-101%);
-  -webkit-animation: side-right ease 6s infinite;
-          animation: side-right ease 6s infinite;
+  -webkit-animation: side-right ease 6s ;
+          animation: side-right ease 6s ;
 }
 .sides .side:nth-child(3) {
   left: 0;
@@ -631,8 +592,8 @@ ul {
   height: 0.15rem;
   -webkit-transform: translateX(101%);
   transform: translateX(101%);
-  -webkit-animation: side-bottom ease 6s infinite;
-          animation: side-bottom ease 6s infinite;
+  -webkit-animation: side-bottom ease 6s ;
+          animation: side-bottom ease 6s ;
 }
 .sides .side:nth-child(4) {
   top: 0;
@@ -641,8 +602,8 @@ ul {
   height: 100%;
   -webkit-transform: translateY(101%);
   transform: translateY(101%);
-  -webkit-animation: side-left ease 6s infinite;
-          animation: side-left ease 6s infinite;
+  -webkit-animation: side-left ease 6s ;
+          animation: side-left ease 6s ;
 }
 .text {
   position: relative;
@@ -661,8 +622,8 @@ ul {
 .text--left .inner {
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
-  -webkit-animation: text-left 6s ease-in-out infinite;
-          animation: text-left 6s ease-in-out infinite;
+  -webkit-animation: text-left 6s ease-in-out ;
+          animation: text-left 6s ease-in-out ;
 }
 .text--right {
   position: absolute;
@@ -675,8 +636,8 @@ ul {
 .text--right .inner {
   -webkit-transform: translateX(-200%);
   transform: translateX(-200%);
-  -webkit-animation: text-right 6s ease-in-out infinite;
-          animation: text-right 6s ease-in-out infinite;
+  -webkit-animation: text-right 6s ease-in-out ;
+          animation: text-right 6s ease-in-out ;
 }
 @-webkit-keyframes slash {
   0% {
@@ -973,14 +934,12 @@ ul {
     flex-direction: row;
   }
   .logo {
-    max-width: 180px;
-    left: 0%;
-    top: 60%;
-    padding-left: 0;
-    padding-top: 0px;
-    border-radius: 50%;
-    border: 0px solid white;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.089);
+    max-width: 140px;
+    margin-top: 30px;
+    border-radius:50%;
+    margin-left:0px;
+    box-shadow: 0px 0px 15px rgba(194, 194, 194, 0.521);
+    border: 4px solid rgb(255, 255, 255);
 }
 
 }
@@ -988,51 +947,24 @@ ul {
 
 /* Social and Mobile */
 
-.social h3{
-  background: linear-gradient(to right bottom, rgba(255,255,255,0.6), rgba(255,255,255,0.3));
-  color: skyblue;
-  border-radius: 3rem;
-  width: 150px;
-  height: 40px;
-  padding: 0.7rem;
-  border-top: 1px solid white;
-  box-shadow: 5px 5px 10px rgba(99, 117, 138, 0.3);
-  -webkit-box-shadow: 5px 5px 10px rgba(99, 117, 138, 0.3);
 
+.social img{
+  filter: invert(1);
+  margin:10px;
+  animation: social 1s infinite;
 }
 
-.social a{
-  text-decoration: none;
-}
-
-.yt a{
-  color: rgb(219, 90, 90);
-}
-.yt a:hover{
-  color: rgb(212, 42, 42);
-}
-.in a{
-  color: rgb(129, 86, 6);
-}
-.in a:hover{
-  color: rgb(206, 141, 20);
-}
-.wt a{
-  color: rgb(86, 179, 98);
-}
-.wt a:hover{
-  color: rgb(36, 170, 59);
+.social img:hover{
+  filter: invert(0.3);
 }
 
 .social{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-left: 200px;
   margin-right: 200px;
-  padding: 5px;
-  
+  margin-top:50px;
 }
 
 .reach{
@@ -1042,9 +974,7 @@ ul {
   justify-content: space-evenly;
   padding-top: 40px;
   padding-bottom: 10px;
-  color: rgb(58, 83, 94);
-  
-
+  color: rgb(145, 198, 214);
 }
 
 .reach-bold{
@@ -1091,4 +1021,52 @@ ul {
 .team{
 display: block;
 }
+}
+
+
+/* waves */
+
+.waves {
+  position:absolute;
+  width: 100%;
+  height:15vh;
+   /*Fix for safari gap*/
+  min-height:200px;
+  top:600px;
+  left:0;
+  max-height:150px;
+}
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+@media (max-width: 768px) {
+  .waves {
+    height:40px;
+    min-height:80px;
+    top:130px;
+  }
 }

@@ -33,7 +33,7 @@
 </head>
 
 <body>
-    
+    <!-- LANDING ANIMATION -->
 <div class="preloader">
     <div class="wrapper">
         <div class="slash"></div>
@@ -58,9 +58,9 @@
     ================================================== -->
 <div class="site-content"> 
 <div class="hero-background">
-    <div>
+    <!-- <div>
         <img class="strips" src="assets/images/strips.png">
-    </div>
+    </div> -->
     <div class="container">
         <div class="header-container header">
             <a class="navbar-brand"> <img class="logo" src="assets/images/flomo-new-square.png"/> </a>
@@ -94,12 +94,25 @@
                 <img class="ipad-screen img-responsive" src="assets/images/flomo-sri-lanka.jpg"/>
             </div>
 
-            <div><img class="mouse" src="assets/images/mouse.svg"/></div>
+            <!-- <div><img class="mouse" src="assets/images/mouse.svg"/></div> -->
 
         </div><!--hero-->
 
     </div> <!--hero-container-->
-
+    <div>
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+        </svg>
+        </div>
 </div><!--hero-background-->
 
 
@@ -154,7 +167,7 @@
 
 <div class="white-section row">
 
-    <video autoplay loop width="100%" height="100%" class="col-sm-6" id="vid">
+    <video autoplay muted loop width="100%" height="100%" class="col-sm-6" id="vid">
         <source class="flomo-video" src="assets/images/flomo-video.mp4" type="video/mp4">
     </video>
     <!-- AUTOPLAY ERROR FIX (FOUND ON GOOGLE) -->
@@ -201,7 +214,7 @@
                 </ul>
                 <div class="plan-price-div text-center">
                     <div class="choose-plan-div">
-                        <a class="plan-btn light" href="/packages/index.html">
+                        <a class="plan-btn wed-btn light" href="/packages/index.html">
                             Wedding Packages
                         </a>
                     </div>
@@ -221,7 +234,7 @@
                 </ul>
                 <div class="plan-price-div text-center">
                     <div class="choose-plan-div">
-                        <a class="plan-btn light" href="/corporate/index.html">
+                        <a class="plan-btn corp-btn light" href="/corporate/index.html">
                             Corporate Packages
                         </a>
                     </div>
@@ -303,6 +316,7 @@
 
 </div> <!--team-section--->
 
+
 <!-- Email-Section
   ================================================== -->
 
@@ -312,10 +326,18 @@
 
     <div class="contact-us">
         <div class="social">
-        <h3 class="wt"><a href="https://wa.me/message/BO6ADL57HT7DE1">WhatsApp</a></h3>
-        <h3 class="yt"><a href="https://www.youtube.com/channel/UC3Fke3v3UGonqtDEdUkwNxw">Youtube</a></h3>
-        <h3 class="fb"><a href="http://facebook.com/flomonotio">Facebook</a></h3>
-        <h3 class="in"><a href="https://www.instagram.com/flomo_notio">Instagram</a></h3>
+            <a href="https://wa.me/message/BO6ADL57HT7DE1">
+                <img src="/assets/icons/whatsapp.svg" width="50px">
+            </a>
+            <a href="https://www.youtube.com/channel/UC3Fke3v3UGonqtDEdUkwNxw">
+                <img src="/assets/icons/youtube.svg" width="50px">
+            </a>
+            <a href="http://facebook.com/flomonotio">
+                <img src="/assets/icons/facebook-circular-logo.svg" width="50px">
+            </a>
+            <a href="https://www.instagram.com/flomo_notio">
+                <img src="/assets/icons/instagram.svg" width="50px">
+            </a>
     </div>
     <div class="reach">
     <div class="phone">
@@ -373,7 +395,7 @@
   
     <script>
         setTimeout(function(){ 
-           $(".preloader").fadeOut("slow"); 
+           $(".preloader").slideUp(); 
            $(".site-content").addClass("show");
         }, 3000);
     </script>
