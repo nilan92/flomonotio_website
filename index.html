@@ -167,7 +167,7 @@
 
 <div class="white-section row">
 
-    <video autoplay muted loop width="100%" height="100%" class="col-sm-6" id="vid">
+    <video playsinline="" muted="muted" autoplay="autoplay" autobuffer="" loop="loop" preload="" width="100%" height="100%" class="col-sm-6" id="vid">
         <source class="flomo-video" src="assets/images/flomo-video.mp4" type="video/mp4">
     </video>
     <!-- AUTOPLAY ERROR FIX (FOUND ON GOOGLE) -->
@@ -326,17 +326,17 @@
 
     <div class="contact-us">
         <div class="social">
-            <a href="https://wa.me/message/BO6ADL57HT7DE1">
+            <a class="wt" href="https://wa.me/message/BO6ADL57HT7DE1">
                 <img src="/assets/icons/whatsapp.svg" width="50px">
             </a>
             <a href="https://www.youtube.com/channel/UC3Fke3v3UGonqtDEdUkwNxw">
-                <img src="/assets/icons/youtube.svg" width="50px">
+                <img class="yt" src="/assets/icons/youtube.svg" width="50px">
             </a>
             <a href="http://facebook.com/flomonotio">
-                <img src="/assets/icons/facebook-circular-logo.svg" width="50px">
+                <img class="fb" src="/assets/icons/facebook-circular-logo.svg" width="50px">
             </a>
             <a href="https://www.instagram.com/flomo_notio">
-                <img src="/assets/icons/instagram.svg" width="50px">
+                <img class="in" src="/assets/icons/instagram.svg" width="50px">
             </a>
     </div>
     <div class="reach">
@@ -401,7 +401,7 @@
     </script>
     <script type="text/javascript" src="assets/js/vanilla-tilt.js"></script>
     <script>
-        VanillaTilt.init(document.querySelectorAll(".ball, .phone, .location, .wt, .fb, .yt, .in"), {
+        VanillaTilt.init(document.querySelectorAll(".ball, .phone, .location"), {
             max: 25,
             speed: 400,
             glare: true,
