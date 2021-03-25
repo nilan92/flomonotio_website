@@ -1046,7 +1046,7 @@ display: block;
   height:15vh;
    /*Fix for safari gap*/
   min-height:200px;
-  top:400px;
+  top:600px;
   left:0;
   max-height:150px;
 }
