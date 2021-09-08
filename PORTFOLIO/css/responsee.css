@@ -809,7 +809,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   .m-12 {width:100%}
 }
 
-@media screen and (max-width:480px) {
+/* @media screen and (max-width:480px) {
   .size-960,.size-1140,.size-1280,.size-1520 {max-width:480px;}
   .aside-nav li a {text-align: center;}
   .minimize-on-small .aside-nav-text {
@@ -920,7 +920,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   .s-10 {width:83.3333%;}
   .s-11 {width:91.6666%;}
   .s-12 {width:100%}
-}  
+}   */
 .center {
   float:none;
   margin:0 auto;
