@@ -29,11 +29,11 @@ $(document).ready(function () {
     });
 
     //reach us click scroll
-    $(document).ready(function () {
-        $(".hero-btn, .header-btn").click(function () {
-            $('html, body').animate({scrollTop: '+=4500px'}, 1200);
-        });
-    });
+    // $(document).ready(function () {
+    //     $(".hero-btn, .header-btn").click(function () {
+    //         $('html, body').animate({scrollTop: '+=4500px'}, 1200);
+    //     });
+    // });
 
     //Features appearance
     $(window).scroll(function () {

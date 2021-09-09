@@ -117,7 +117,7 @@ body {
 .hero-btn {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    background-color: rgb(93, 197, 197);
+    background-color: aqua;
     border-radius: 20px;
     border: 1px solid #ffffff;
     width: 130px;
@@ -127,7 +127,7 @@ body {
 }
 
 .hero-btn:hover {
-  background-color:aqua;
+  background-color:white;
     color: black;
     border-radius: 40px;
     -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
