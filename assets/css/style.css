@@ -224,16 +224,25 @@ body {
     margin: auto;
     box-shadow: 4px 5px 10px #c2c2c271;
 }
+.feature-icon:hover{
+  box-shadow: 4px 5px 10px aqua;
+}
 
 .feature-head-text {
     color: whitesmoke;
     font-weight: 600;
     padding-top: 15px;
 }
+.feature-head-text:hover {
+  color: aqua;
+}
 
 .feature-subtext {
     color: rgb(182, 182, 182);
     padding-top: 0;
+}
+.feature-subtext:hover {
+  color: aqua;
 }
 
 .feature-img {
