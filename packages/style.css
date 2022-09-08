@@ -21,6 +21,25 @@ body {
     position: relative;
     z-index: 999;
 }
+
+.packs-btns{
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1em;
+}
+
+.packs-btn {
+    text-align: center;
+    padding-top: 1.5rem;
+    background-color:#fcdffc;
+    border-radius: 10px;
+    width: 210px;
+    height: 310px;
+    color: black;
+    margin: 5px auto;
+    position: relative;
+}
 .packg-logo{
   margin-top: 20px;
   margin-bottom: 20px;
@@ -405,7 +424,7 @@ ul {
 }
 
 .plan-cost::before {
-    content: "LKR ";
+    content: "USD";
 }
 
 .monthly {
